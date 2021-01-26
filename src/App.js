@@ -15,7 +15,7 @@ function App() {
     <div className="container">
       <div className="header row">
         {/* <h3 className="txtH1">Welcome to my portfolio...!</h3> */}
-      <div className="col-md-8">
+      <div className="col-8">
         <Typical
         steps={['Hello, 👋 I am Salman Qureshi', 1500, 'Welcome to my 👨‍💻 portfolio...!', 1500, 'Have Fun.... Explore my work🤭',2000]}
         loop={Infinity}
@@ -24,9 +24,9 @@ function App() {
       />
       </div>
 
-      <div className="col-md-4 imgContainer">
+      <div className="col-4 imgContainer">
       <div class="child">
-      <img src={Photo} className="rounded-circle photo mx-auto border border-5 border-warning"  />
+      <img src={Photo} className="rounded-circle photo mx-auto border border-5 border-warning img-responsive"  />
       </div>
       </div>
 
