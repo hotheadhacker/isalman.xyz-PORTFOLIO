@@ -36,3 +36,196 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+
+}
+
+.header{
+/* background: rgb(63,94,251); */
+/* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,70,1) 100%); */
+height: 150px;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.txtH1{
+  font-family: Hack, monospace;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.photo{
+  width: 210px;
+  height: 210px;
+  justify-content: center;
+}
+
+.child{
+  margin: 0 auto;
+  /* background: green; */
+
+}
+
+.imgContainer{
+  padding-top: 1%;
+  
+  
+}
+
+.mainArea{
+  height: auto;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.paddingSpace{
+  padding-top: 5%;
+}
+.portfolioTxt{
+  font-family: 'Bebas Neue', cursive;
+  /* text-align: center; */
+  color: rgb(168, 233, 18);
+  font-weight: bold;
+  text-align: center;
+  /* padding-top: 10%; */
+}
+
+.item-one{
+  width: 18rem;
+  background: yellow;
+}
+.item-one:hover{
+  background: white;
+  /* background-image: linear-gradient(180deg, #581a1a 0%, #263053 50%, #c2b0b0 100%);   */
+
+}
+.item-two{
+  width: 18rem;
+  background: #FDFC47;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.item-two:hover{
+  /* background: tomato; */
+  background-image: linear-gradient(180deg, #581a1a 0%, #263053 50%, #c2b0b0 100%);  
+
+}
+.item-three{
+  width: 18rem;
+  background: #CAC531;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.item-three:hover{
+  /* background: tomato; */
+  background-image: linear-gradient(180deg, #581a1a 0%, #263053 50%, #c2b0b0 100%);  
+
+}
+.item-four{
+  width: 18rem;
+  background: #ffe000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffe000, #799f0c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffe000, #799f0c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.item-four:hover{
+  /* background: tomato; */
+  background: #f7ff00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.item-five{
+  width: 18rem;
+  background: #00c3ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.item-five:hover{
+  /* background: tomato; */
+  background: #ffe000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffe000, #799f0c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffe000, #799f0c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+}
+.item-six{
+  width: 18rem;
+  background: #f7ff00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.item-six:hover{
+  /* background: tomato; */
+  background: #ffe000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffe000, #799f0c); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffe000, #799f0c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+}
+
+.briefCaseIcon{
+  color: tomato;
+}
+
+.cardHeadingTxt{
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: rgb(248, 11, 11);
+  font-weight: bold;
+  /* background-color: #85FFBD; */
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+
+.cardDetailTxt{
+  /* font-family: Hack, monospace; */
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: large;
+
+}
+
+.cardBtn-One{
+  justify-content: center;
+}
+
+
+.footer{
+  text-align: center;
+}
+
+.github:hover{
+  color:grey
+}
+
+.twitter:hover{
+  color: #00acee;
+}
+.instagram:hover{
+  color: tomato;
+}
+.website:hover{
+  color: greenyellow;
+}
+.email:hover{
+  color: yellow;
+}
+.blog:hover{
+  color: red;
+}
+
+.footer a{
+  color: black;
+}
